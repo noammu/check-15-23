@@ -52,7 +52,7 @@ export const ElementsTree = ({ className, someContext }: ElementsTreeProps) => {
                 <AddMeStuff className={styles.ftgh} />
                 <form>
                     <textarea />
-                    <button>Button</button>
+                    <button className={styles.fcvhg}>Button</button>
                     <label>First name:</label>
                     <br />
                     <input type="text" />
