@@ -1,0 +1,14 @@
+.root {
+}
+.butbut {
+  &:active {
+    background-color: #f21818;
+  }
+  &:disabled {
+    background-color: #f229bf;
+  }
+  &:hover {
+    background-color: #ffff00;
+  }
+  background-color: #b9feaa;
+}
