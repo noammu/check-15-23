@@ -5,4 +5,7 @@ export default createBoard({
     name: 'AddMeStuff',
     Board: () => <AddMeStuff />,
     isSnippet: true,
+    environmentProps: {
+        windowWidth: 1024,
+    },
 });

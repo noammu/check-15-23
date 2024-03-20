@@ -3,6 +3,6 @@ import { Butbutbutbutton } from '../../../components/butbutbutbutton/butbutbutbu
 
 export default createBoard({
     name: 'Butbutbutbutton',
-    Board: () => <Butbutbutbutton butState={false} />,
+    Board: () => <Butbutbutbutton butState={true} />,
     isSnippet: true,
 });

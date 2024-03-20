@@ -6,11 +6,11 @@ export default createBoard({
     name: 'ElementsTree',
     Board: () => {
         const [someContext, setSomeContext] = useState(1);
-        return(
+        return (
             <ContentSlot>
                 <ElementsTree someContext={someContext} />
             </ContentSlot>
-        )
-        },
+        );
+    },
     isSnippet: true,
 });
